@@ -8,14 +8,14 @@
 
 -Home Page has all the locators and Methods required for the automation
 
--StepDefination file is connected to Demo Feature which has the implementation or Method for the sceanrios written in feature file
+-StepDefination file is connected to Demo Feature which has the implementation or Method for the scenarios written in feature file
 
 -Base file contains all the common methods used for Automation
 
--To run  the file just go to --->cucumberOtions--->TestRunner-->R.click and run
+-To run  the file just go to --->cucumberOptions--->TestRunner-->R.click and run
 
 -ITestListener is also implemented for the reports on Success,Skipped,failure etc
 
--Extent Reports are also implemented in the project after the run just refresh the project and new click oon reports.html under target/cucumber-reports/report.html
+-Extent Reports are also implemented in the frame work after the run just refresh the project and new D.click on reports.html under target/cucumber-reports/report.html
 
 
