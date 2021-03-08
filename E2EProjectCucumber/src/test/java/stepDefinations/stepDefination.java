@@ -5,7 +5,7 @@ import cucumber.api.java.en.Then;
 import pageObjects.HomePage;
 import resources.Base;
 
-public class stepDefination extends Base {
+public class StepDefination extends Base {
 
 	@Given("^user initialize the browser$")
 	public void user_initialize_the_browser() throws Throwable {
