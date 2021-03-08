@@ -1,0 +1,7 @@
+00:40:48.072 [main] INFO  pageObjects.HomePage - Prefix displayed correctly
+01:05:03.199 [main] INFO  pageObjects.HomePage - Values displayed on the screen are correct 
+01:05:19.329 [main] INFO  pageObjects.HomePage - Sum of values are displayed correctly 
+01:05:25.076 [main] INFO  pageObjects.HomePage - Prefix displayed correctly
+01:05:25.127 [main] INFO  pageObjects.HomePage - Prefix displayed correctly
+01:05:25.182 [main] INFO  pageObjects.HomePage - Prefix displayed correctly
+01:05:25.210 [main] INFO  pageObjects.HomePage - Prefix displayed correctly
