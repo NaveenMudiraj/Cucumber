@@ -12,6 +12,8 @@
 
 -Base file contains all the common methods used for Automation
 
+-To run  the file just go to --->cucumberOtions--->TestRunner-->R.click and run
+
 -ITestListener is also implemented for the reports on Success,Skipped,failure etc
 
 -Extent Reports are also implemented in the project after the run just refresh the project and new click oon reports.html under target/cucumber-reports/report.html
