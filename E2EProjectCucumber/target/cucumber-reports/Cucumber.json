@@ -11,59 +11,81 @@
         "steps": [
           {
             "result": {
-              "duration": 7115024100,
+              "duration": 5310833400,
               "status": "passed"
             },
             "line": 3,
             "name": "user initialize the browser",
             "match": {
-              "location": "stepDefination.user_initialize_the_browser()"
+              "location": "StepDefination.user_initialize_the_browser()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 442825400,
+              "duration": 139087000,
               "status": "passed"
             },
             "line": 4,
             "name": "Navigate to the Site",
             "match": {
-              "location": "stepDefination.navigate_to_the_Site()"
+              "location": "StepDefination.navigate_to_the_Site()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 27363900,
+              "duration": 25790300,
               "status": "passed"
             },
             "line": 5,
             "name": "User enters valid page title of the page",
             "match": {
-              "location": "stepDefination.user_enters_valid_page_title_of_the_page()"
+              "location": "StepDefination.user_enters_valid_page_title_of_the_page()"
             },
             "keyword": "Then "
           }
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 337084100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.launch()"
+            }
+          }
+        ],
         "line": 8,
         "name": "validating the right count of values displayed on Page",
         "description": "",
-        "id": "home-page-validation;validating-the-right-count-of-values-displayed-on-page",
+        "id": "problem#1-page-validation;validating-the-right-count-of-values-displayed-on-page",
+        "after": [
+          {
+            "result": {
+              "duration": 4465680600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 161504400,
+              "duration": 173428100,
               "status": "passed"
             },
             "line": 9,
             "name": "user validates whether right count of values appear on the page.",
             "match": {
-              "location": "stepDefination.user_validates_whether_right_count_of_values_appear_on_the_page()"
+              "location": "StepDefination.user_validates_whether_right_count_of_values_appear_on_the_page()"
             },
             "keyword": "Then "
           }
@@ -88,70 +110,92 @@
         "steps": [
           {
             "result": {
-              "duration": 4744696800,
+              "duration": 3687066400,
               "status": "passed"
             },
             "line": 3,
             "name": "user initialize the browser",
             "match": {
-              "location": "stepDefination.user_initialize_the_browser()"
+              "location": "StepDefination.user_initialize_the_browser()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 327310800,
+              "duration": 124075600,
               "status": "passed"
             },
             "line": 4,
             "name": "Navigate to the Site",
             "match": {
-              "location": "stepDefination.navigate_to_the_Site()"
+              "location": "StepDefination.navigate_to_the_Site()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 28466000,
+              "duration": 31440900,
               "status": "passed"
             },
             "line": 5,
             "name": "User enters valid page title of the page",
             "match": {
-              "location": "stepDefination.user_enters_valid_page_title_of_the_page()"
+              "location": "StepDefination.user_enters_valid_page_title_of_the_page()"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "line": 15,
+        "before": [
+          {
+            "result": {
+              "duration": 182700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.launch()"
+            }
+          }
+        ],
+        "line": 13,
         "name": "validating the values are greater than zero",
         "description": "",
-        "id": "home-page-validation;validating-the-values-are-greater-than-zero",
+        "id": "problem#1-page-validation;validating-the-values-are-greater-than-zero",
+        "after": [
+          {
+            "result": {
+              "duration": 881723400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 247305600,
+              "duration": 282608600,
               "status": "passed"
             },
-            "line": 16,
+            "line": 14,
             "name": "user validates the values are greater than zero",
             "match": {
-              "location": "stepDefination.user_validates_the_values_are_greater_than_zero()"
+              "location": "StepDefination.user_validates_the_values_are_greater_than_zero()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 14,
+            "line": 12,
             "name": "@validatingthevalueontheScreenGreaterThanZero"
           },
           {
-            "line": 14,
+            "line": 12,
             "name": "@Regression"
           }
         ]
@@ -165,69 +209,190 @@
         "steps": [
           {
             "result": {
-              "duration": 10379619700,
+              "duration": 6073235700,
               "status": "passed"
             },
             "line": 3,
             "name": "user initialize the browser",
             "match": {
-              "location": "stepDefination.user_initialize_the_browser()"
+              "location": "StepDefination.user_initialize_the_browser()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 493709200,
+              "duration": 136480700,
               "status": "passed"
             },
             "line": 4,
             "name": "Navigate to the Site",
             "match": {
-              "location": "stepDefination.navigate_to_the_Site()"
+              "location": "StepDefination.navigate_to_the_Site()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 34060700,
+              "duration": 20965300,
               "status": "passed"
             },
             "line": 5,
             "name": "User enters valid page title of the page",
             "match": {
-              "location": "stepDefination.user_enters_valid_page_title_of_the_page()"
+              "location": "StepDefination.user_enters_valid_page_title_of_the_page()"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "line": 22,
+        "before": [
+          {
+            "result": {
+              "duration": 150300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.launch()"
+            }
+          }
+        ],
+        "line": 18,
         "name": "validating the sum of all values matching the Totalbalance",
         "description": "",
-        "id": "home-page-validation;validating-the-sum-of-all-values-matching-the-totalbalance",
+        "id": "problem#1-page-validation;validating-the-sum-of-all-values-matching-the-totalbalance",
+        "after": [
+          {
+            "result": {
+              "duration": 915021400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 358049500,
+              "duration": 1402228700,
               "status": "passed"
             },
-            "line": 23,
+            "line": 19,
             "name": "user validates the sum of all the values matches with Total balance",
             "match": {
-              "location": "stepDefination.user_validates_the_sum_of_all_the_values_matches_with_Total_balance()"
+              "location": "StepDefination.user_validates_the_sum_of_all_the_values_matches_with_Total_balance()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 21,
+            "line": 17,
             "name": "@validatingtheSumDisplayedCorrectly"
           },
           {
+            "line": 17,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6756743000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user initialize the browser",
+            "match": {
+              "location": "StepDefination.user_initialize_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 145921200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Navigate to the Site",
+            "match": {
+              "location": "StepDefination.navigate_to_the_Site()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23078400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters valid page title of the page",
+            "match": {
+              "location": "StepDefination.user_enters_valid_page_title_of_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 214800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.launch()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "validating the format of values",
+        "description": "",
+        "id": "problem#1-page-validation;validating-the-format-of-values",
+        "after": [
+          {
+            "result": {
+              "duration": 821654900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 296908200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user validates values are formatted correctly",
+            "match": {
+              "location": "StepDefination.user_validates_values_are_formatted_correctly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@validatingthevaluesAreFormattedCorrectly"
+          },
+          {
             "line": 21,
             "name": "@Regression"
           }
@@ -242,78 +407,136 @@
         "steps": [
           {
             "result": {
-              "duration": 15477651700,
+              "duration": 3230090900,
               "status": "passed"
             },
             "line": 3,
             "name": "user initialize the browser",
             "match": {
-              "location": "stepDefination.user_initialize_the_browser()"
+              "location": "StepDefination.user_initialize_the_browser()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 858782600,
+              "duration": 152653000,
               "status": "passed"
             },
             "line": 4,
             "name": "Navigate to the Site",
             "match": {
-              "location": "stepDefination.navigate_to_the_Site()"
+              "location": "StepDefination.navigate_to_the_Site()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 21476700,
+              "duration": 30988700,
               "status": "passed"
             },
             "line": 5,
             "name": "User enters valid page title of the page",
             "match": {
-              "location": "stepDefination.user_enters_valid_page_title_of_the_page()"
+              "location": "StepDefination.user_enters_valid_page_title_of_the_page()"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "line": 29,
-        "name": "validating the format of values",
+        "before": [
+          {
+            "result": {
+              "duration": 211500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.launch()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "validating the labels displayed before the values",
         "description": "",
-        "id": "home-page-validation;validating-the-format-of-values",
+        "id": "problem#1-page-validation;validating-the-labels-displayed-before-the-values",
+        "after": [
+          {
+            "result": {
+              "duration": 909743000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 248610200,
+              "duration": 280316000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user validates labels displayed before the values",
+            "match": {
+              "location": "StepDefination.user_validates_labels_displayed_before_the_values()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63995100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user validates the label displayed before Total balance",
+            "match": {
+              "location": "StepDefination.user_validates_the_label_displayed_before_Total_balance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 216539900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user validates the labels displayed after the values.",
+            "match": {
+              "location": "StepDefination.user_validates_the_labels_displayed_after_the_values()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61763600,
               "status": "passed"
             },
             "line": 30,
-            "name": "user validates values are formatted correctly",
+            "name": "user validates the label displayed the after the Total balance value",
             "match": {
-              "location": "stepDefination.user_validates_values_are_formatted_correctly()"
+              "location": "StepDefination.user_validates_the_label_displayed_the_after_the_Total_balance_value()"
             },
-            "keyword": "Then "
+            "keyword": "And "
           }
         ],
         "tags": [
           {
-            "line": 28,
-            "name": "@validatingthevaluesAreFormattedCorrectly"
+            "line": 25,
+            "name": "@validatingLabels"
           },
           {
-            "line": 28,
+            "line": 25,
             "name": "@Regression"
           }
         ]
       }
     ],
-    "name": "Home Page validation",
+    "name": "Problem#1 Page validation",
     "description": "",
-    "id": "home-page-validation",
+    "id": "problem#1-page-validation",
     "keyword": "Feature",
     "uri": "Demo.feature"
   }

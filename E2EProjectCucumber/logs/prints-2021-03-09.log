@@ -1,9 +1,7 @@
-02:52:27.576 [main] INFO  pageObjects.HomePage - Sum of values are displayed correctly 
-02:52:43.060 [main] INFO  resources.Base - Navigating to: C:\Users\Naveen%20Mudiraj\OneDrive\Desktop\test.html
-02:52:43.060 [main] INFO  resources.Base - Thread id = 1
-02:52:43.926 [main] INFO  resources.Base - The title of the page is: Problem#1
-
-
-02:52:44.038 [main] INFO  pageObjects.HomePage - Prefix displayed correctly
-02:52:44.070 [main] INFO  pageObjects.HomePage - Prefix displayed correctly
-02:52:44.098 [main] INFO  pageObjects.HomePage - Prefix displayed correctly
+10:52:16.637 [main] INFO  pageObjects.HomePage - @@@Size of input values@@@ 5
+10:52:16.669 [main] INFO  pageObjects.HomePage - @@@ values from UI@@@ txt_val_1
+10:52:16.669 [main] INFO  pageObjects.HomePage - @@@values are matchings@@@ txt_val_1
+10:52:16.701 [main] INFO  pageObjects.HomePage - @@@ values from UI@@@ txt_val_2
+10:52:16.701 [main] INFO  pageObjects.HomePage - @@@values are matchings@@@ txt_val_2
+10:52:16.731 [main] INFO  pageObjects.HomePage - @@@ values from UI@@@ txt_val_3
+10:52:16.731 [main] INFO  pageObjects.HomePage - @@@values are matchings@@@ txt_val_3
