@@ -1,7 +1,6 @@
-10:52:16.637 [main] INFO  pageObjects.HomePage - @@@Size of input values@@@ 5
-10:52:16.669 [main] INFO  pageObjects.HomePage - @@@ values from UI@@@ txt_val_1
-10:52:16.669 [main] INFO  pageObjects.HomePage - @@@values are matchings@@@ txt_val_1
-10:52:16.701 [main] INFO  pageObjects.HomePage - @@@ values from UI@@@ txt_val_2
-10:52:16.701 [main] INFO  pageObjects.HomePage - @@@values are matchings@@@ txt_val_2
-10:52:16.731 [main] INFO  pageObjects.HomePage - @@@ values from UI@@@ txt_val_3
-10:52:16.731 [main] INFO  pageObjects.HomePage - @@@values are matchings@@@ txt_val_3
+12:12:24.207 [main] INFO  resources.Base - Thread id = 1
+12:12:24.218 [main] INFO  resources.Base - URL did not load: null
+12:12:24.230 [main] INFO  stepDefinations.Hooks - @@@Quit the browser@@@
+12:12:25.435 [main] INFO  stepDefinations.Hooks - @@@Browser is launched@@@
+12:13:53.677 [main] INFO  stepDefinations.Hooks - @@@Browser is launched@@@
+12:13:58.638 [main] INFO  resources.Base - Navigating to: C:\Users\Naveen Mudiraj\OneDrive\Documents\E2EProjectCucumber\E2EProjectCucumber\src\main\java\resources\test.html

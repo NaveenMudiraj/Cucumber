@@ -125,11 +125,11 @@ public class Base {
 	}
 
 	public void navigateToURL() throws IOException {
-		prop = new Properties();
-		FileInputStream fis = new FileInputStream(
-				System.getProperty("user.dir") + "\\src\\main\\java\\resources\\data.properties");
-		prop.load(fis);
-		String browserName = prop.getProperty("url");
+	/*	prop = new Properties();
+	//	FileInputStream fis = new FileInputStream(
+				System.getProperty("user.dir") + "\\src\\main\\java\\resources\\test.html");
+	/prop.load(fis);*/
+		String browserName =System.getProperty("user.dir") + "\\src\\main\\java\\resources\\test.html";
 		log.info("Navigating to: " + browserName);
 		log.info("Thread id = " + Thread.currentThread().getId());
 
