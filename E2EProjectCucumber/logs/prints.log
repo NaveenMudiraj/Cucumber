@@ -1,8 +1,6 @@
-12:13:58.639 [main] INFO  resources.Base - Thread id = 1
-12:13:59.158 [main] INFO  resources.Base - The title of the page is: Problem#1
-
-
-12:14:01.346 [main] INFO  pageObjects.HomePage - @@Values@@@6
-12:14:01.346 [main] INFO  pageObjects.HomePage - Values displayed on the screen are correct 
-12:14:01.347 [main] INFO  stepDefinations.Hooks - @@@Quit the browser@@@
-12:14:02.446 [main] INFO  stepDefinations.Hooks - @@@Browser is launched@@@
+12:16:25.591 [main] INFO  pageObjects.HomePage - @@@ values from UI@@@ txt_val_4
+12:16:26.050 [main] INFO  pageObjects.HomePage - @@@values are matchings@@@ txt_val_4
+12:16:27.309 [main] INFO  pageObjects.HomePage - @@@ values from UI@@@ txt_val_5
+12:16:27.309 [main] INFO  pageObjects.HomePage - @@@values are matchings@@@ txt_val_5
+12:16:27.414 [main] INFO  pageObjects.HomePage - Both values are matchingtxt_ttl_val
+12:16:27.415 [main] INFO  stepDefinations.Hooks - @@@Quit the browser@@@

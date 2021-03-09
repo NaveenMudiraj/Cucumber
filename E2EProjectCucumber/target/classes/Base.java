@@ -30,6 +30,12 @@ public class Base {
 	private static Logger log = LogManager.getLogger(Base.class.getName());
 
 	public static WebDriverWait wait;
+	
+	/*************************************************************************************
+	 * Method name-initializeDriver 
+	 * Method Description- This Method is used to initializeDriver
+	 * Author name:Naveen Mudiraj
+	 *****************************************************************************************/
 
 	public WebDriver initializeDriver() throws IOException {
 		prop = new Properties();
@@ -78,6 +84,12 @@ public class Base {
 		return driver;
 
 	}
+	
+	/*************************************************************************************
+	 * Method name-getScreenshot 
+	 * Method Description- This Method is used to getScreenshot
+	 * Author name:Naveen Mudiraj
+	 *****************************************************************************************/
 
 	public static void getScreenshot(String testcasename, WebDriver driver) {
 
@@ -90,7 +102,11 @@ public class Base {
 			System.out.println(e.getMessage());
 		}
 	}
-
+	/*************************************************************************************
+	 * Method name-waitForElementdisplayed 
+	 * Method Description- This Method is used to waitForElementdisplayed
+	 * Author name:Naveen Mudiraj
+	 *****************************************************************************************/
 	public void waitForElementdisplayed(WebElement element) {
 		try {
 			wait = new WebDriverWait(driver, 30);
@@ -102,6 +118,11 @@ public class Base {
 			log.info("No Element found");
 		}
 	}
+	/*************************************************************************************
+	 * Method name-takeScreenshot 
+	 * Method Description- This Method is used to takeScreenshot
+	 * Author name:Naveen Mudiraj
+	 *****************************************************************************************/
 
 	public void takeScreenshot() {
 		try {
@@ -113,6 +134,11 @@ public class Base {
 		}
 
 	}
+	/*************************************************************************************
+	 * Method name-getPageTitle 
+	 * Method Description- This Method is used to getPageTitle
+	 * Author name:Naveen Mudiraj
+	 *****************************************************************************************/
 
 	public String getPageTitle() {
 
@@ -124,6 +150,11 @@ public class Base {
 		}
 	}
 
+	/*************************************************************************************
+	 * Method name-navigateToURL 
+	 * Method Description- This Method is used to navigateToURL
+	 * Author name:Naveen Mudiraj
+	 *****************************************************************************************/
 	public void navigateToURL() throws IOException {
 	/*	prop = new Properties();
 	//	FileInputStream fis = new FileInputStream(
@@ -140,6 +171,12 @@ public class Base {
 			throw new TestException("URL did not load");
 		}
 	}
+	
+	/*************************************************************************************
+	 * Method name-waitForPageLoad 
+	 * Method Description- This Method is used to waitForPageLoad
+	 * Author name:Naveen Mudiraj
+	 *****************************************************************************************/
 
 	public void waitForPageLoad() {
 
