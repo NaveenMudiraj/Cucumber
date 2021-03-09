@@ -82,7 +82,7 @@ public class HomePage extends Base {
 	}
 
 	/*************************************************************************************
-	 * Method name-validateValuesOnPage
+	 * Method name-valuesGreaterThanZero
 	 * Method Description- This Method is used to validate values entered are greater than zero 
 	 * Author name:Naveen Mudiraj
 	 *****************************************************************************************/
@@ -114,7 +114,7 @@ public class HomePage extends Base {
 	}
 
 	/*************************************************************************************
-	 * Method name-validateValuesOnPage
+	 * Method name-validatingSumDisplayedCorrectly
 	 * Method Description- This Method is used to validate sum is displayed correctly 
 	 * Author name:Naveen Mudiraj
 	 *****************************************************************************************/
@@ -154,7 +154,7 @@ public class HomePage extends Base {
 	}
 
 	/*************************************************************************************
-	 * Method name-validateValuesOnPage 
+	 * Method name-valuesFormattedCorrectly 
 	 * Method Description- This Method is used to validate values are prefixed with $ symbol 
 	 * Author name:Naveen Mudiraj
 	 *****************************************************************************************/
@@ -183,7 +183,7 @@ public class HomePage extends Base {
 	}
 
 	/*************************************************************************************
-	 * Method name-validateValuesOnPage 
+	 * Method name-validateLabelBeforeInputBox 
 	 * Method Description- This Method is used to validate the labels before values box 
 	 * Author name:Naveen Mudiraj
 	 *****************************************************************************************/
@@ -217,7 +217,7 @@ public class HomePage extends Base {
 	}
 
 	/*************************************************************************************
-	 * Method name-validateValuesOnPage 
+	 * Method name-validateLabelAfterInputBox 
 	 * Method Description- This Method is used to validate the labels after values entered box 
 	 * Author name:Naveen Mudiraj
 	 *****************************************************************************************/
@@ -250,7 +250,7 @@ public class HomePage extends Base {
 	}
 
 	/*************************************************************************************
-	 * Method name-validateValuesOnPage 
+	 * Method name-validateLblbefreTtlBal 
 	 * Method Description- This Method is used to validate the labels before Total balance 
 	 * Author name:Naveen Mudiraj
 	 *****************************************************************************************/
@@ -276,7 +276,7 @@ public class HomePage extends Base {
 	}
 
 	/*************************************************************************************
-	 * Method name-validateValuesOnPage 
+	 * Method name-validateLblAfterTtlBal 
 	 * Method Description- This Method is used to validate the labels before After balance 
 	 * Author name:Naveen Mudiraj
 	 *****************************************************************************************/
