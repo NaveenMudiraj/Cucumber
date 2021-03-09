@@ -6,6 +6,8 @@
 
 -HTML code has been written to create a form as per the problem given HTMLCodeUSed.txt file for reference
 
+-Test cases can run in all browsers like IE,Chrome,FireFox,Edge just updated the browser name in data.properties in resources
+
 -Home Page has all the locators and Methods required for the automation
 
 -StepDefination file is connected to Demo Feature which has the implementation or Method for the scenarios written in feature file
@@ -16,6 +18,6 @@
 
 -ITestListener is also implemented for the reports on Success,Skipped,failure etc
 
--Extent Reports are also implemented in the frame work after the run just refresh the project and new D.click on reports.html under target/cucumber-reports/report.html
+- Reports are also implemented in the frame work after the run just refresh the project and check index,html in target-->cucumber-reports
 
 
